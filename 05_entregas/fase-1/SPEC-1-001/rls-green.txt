@@ -1,0 +1,21 @@
+Central Sly / SPEC-1-001 / TDD GREEN 1
+Banco: Supabase Comercial
+
+Consultas após migração 20261008200530:
+
+Vendedor 33333333-3333-4333-8333-333333333333
+papel=vendedor | eh_gestao=false | perfis_visiveis=1
+
+Supervisora 55555555-5555-4555-8555-555555555555
+papel=supervisora | eh_gestao=true | perfis_visiveis=9
+
+PCP 99999999-9999-4999-8999-999999999999
+papel=pcp | eh_gestao=false | perfis_visiveis=1
+
+Verificações adicionais (saídas reais):
+- RLS enabled + forced: public.perfis=true/true; public.auditoria=true/true
+- authenticated INSERT/UPDATE/DELETE perfis=false/false/false
+- authenticated SELECT perfis=true; anon SELECT perfis=false
+- registrar_acesso() atualizou ultimo_acesso_em em teste transacional
+- UPDATE perfil produziu evento em auditoria; transação revertida; auditoria final permaneceu vazia
+- aplicação: Carlos entrou em /meu-dia; Carteira mostrou 8 clientes; supervisora viu 40 clientes
