@@ -2,7 +2,7 @@
 
 **Atualizado em:** 08/10/2026  
 **Fase atual:** 1 — Sistema completo com dados manuais (19/10/2026 a 04/12/2026)  
-**Situação:** execução iniciada; task 1.01 implementada no Supabase Comercial e evidências registradas na branch/PR de entrega.
+**Situação:** implementação técnica da task 1.01 aplicada no Supabase Comercial; aguardando validação final da sponsor/consultoria e revisão das entregas antes da próxima task.
 
 ## Antes de começar (Platina)
 - [x] Supabase criado e conectado ao Skip (Marco)
@@ -11,5 +11,6 @@
 - [ ] Planilha do último cálculo manual de top clientes por UF (Ângela)
 
 ## Progresso da fase 1
-- Tasks concluídas: 1 de 43 (1.01 — perfis, auditoria, funções de papel e RLS; implementação e testes técnicos concluídos)
-- Próxima task disponível: 1.02 (após aceite desta entrega; ainda não iniciada)
+- Tasks concluídas e aceitas: 0 de 43
+- Task em validação: 1.01 (implementação técnica concluída; testes manuais e aceite pendentes)
+- Próxima task: não iniciar até validar/aceitar a 1.01; depois, respeitar pré-condições da 1.02 e demais SPECs.
