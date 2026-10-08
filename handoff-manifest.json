@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "adapta-cliente-handoff/v1",
+  "phase": 1,
+  "versions": {
+    "package": "0.9.6",
+    "adapta": "0.9.6",
+    "adaptaCliente": "0.9.6"
+  },
+  "generatedAt": "2026-10-08T00:00:00.000Z",
+  "files": [
+    {
+      "path": "04_fase-atual/fase.md",
+      "sha256": "1cd80a8f57b4a5c4104ba1fd7a1fe2cc7f2e17a4f423d1f81f8dbb4c58dae318",
+      "classification": "fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-1-001-acesso-por-perfil.md",
+      "sha256": "de60f4e626e7b388f01118fa3ac28914cbe3214ac9f379b516eb163f26c61e41",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-1-002-base-comercial-e-importacao.md",
+      "sha256": "3c295586964afdae60addca975b39b31208e54f8d254205eebdb95f6facb2d95",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-1-003-metricas-da-carteira.md",
+      "sha256": "7cb1515a9886ae49ce7c7a2ab27e9446c5df45853f186b8abac44b97f93819d6",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-1-004-tela-carteira.md",
+      "sha256": "4e8bad495f25f436b2a49dfa4cadbee578d32d7fc6d627a05adf35fc7d72295e",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-1-005-ficha-do-cliente.md",
+      "sha256": "670850efd406ba8141d1d47a159e09595d5e3ea7fb3789bb0b932e5977ca449b",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-1-006-motor-de-sinais-e-acoes.md",
+      "sha256": "8fdad72904fece002b19c88a3a6eeb20c7bcefdd8691181b3d33916f6b20358b",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-1-007-meu-dia-e-resultados.md",
+      "sha256": "023d702bc7e918cdc0d1f279e70b04b49977b2e499a4f548987ca1bf18d0f76b",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-1-008-supervisao-alertas-e-parametros.md",
+      "sha256": "11222c511e2a41d711b681d9fe31bbc0996660fd5d05309c6972e5747b8ea0f1",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-1-009-funil-de-novos-clientes.md",
+      "sha256": "9e1529a16f1bf8a39e23f67da4c3be5d1f18001d7bc8c6b3ef25aad5fab865bb",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-1-010-pos-venda.md",
+      "sha256": "bbe685a73ea566f71076fc16db67e19b627dfe905e50bd6b984461cb76a02437",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-1-011-lotes-cd.md",
+      "sha256": "2eca6478dcefbd9dca25729d4a010c627c2724b02ba82b5758a5de39aeadedb0",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-1-012-paineis-e-resultado.md",
+      "sha256": "1a14e94b96f3d3a958894b56af04d391dcae381514be8f3dfdbcda79e3a25b4b",
+      "classification": "spec-fase-atual"
+    }
+  ]
+}
