@@ -1,0 +1,14 @@
+Central Sly / SPEC-1-001 / TDD RED 1
+Banco: Supabase Comercial
+
+Comando usado antes da migração (leitura como vendedor):
+BEGIN;
+SET LOCAL ROLE authenticated;
+SET LOCAL request.jwt.claims = '{"sub":"33333333-3333-4333-8333-333333333333","role":"authenticated"}';
+SELECT auth.uid()::text AS simulated_uid, count(*) AS visible_profiles_before FROM public.perfis;
+ROLLBACK;
+
+Resultado real do Supabase:
+ERROR 42P17: infinite recursion detected in policy for relation "perfis"
+
+Interpretação: estado RED reproduzido; as políticas existentes não permitiam concluir a prova de escopo do vendedor.
